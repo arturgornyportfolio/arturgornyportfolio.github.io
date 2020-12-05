@@ -46,6 +46,15 @@ a:active  {color:red; background-color:transparent; text-decoration:underline; t
 	font-family: impact;
 	font-size:20px;
 }
+#tresc1b{
+	width:auto;
+	height:auto;
+	background-color: white;
+	color:black;
+	font-family: impact;
+	font-size:20px;
+
+}
 #tresc1{
 	width:auto;
 	height: 300px;
@@ -81,6 +90,12 @@ a:active  {color:red; background-color:transparent; text-decoration:underline; t
 #tektura{
 	float:left;
 }
+#poli{
+	float:left;
+}
+#cert{
+	float: left ;
+}
 
 #stopka{
 	width:1200px;
@@ -93,4 +108,7 @@ a:active  {color:red; background-color:transparent; text-decoration:underline; t
 }
 #fota{
 	float:right;
+}
+#h1{
+	font-family: impact;
 }
