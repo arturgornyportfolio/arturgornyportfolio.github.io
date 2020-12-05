@@ -66,6 +66,9 @@ a:active  {color:red; background-color:transparent; text-decoration:underline; t
 #silnik{
 	float: left;
 }
+#pilka{
+	float: left;
+}
 #tresc2{
 	width:auto;
 	height: 300px;
