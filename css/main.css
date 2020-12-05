@@ -1,75 +1,96 @@
-*{
-margin:0px; s
-padding:0px;
-}
-h1{
-
-font:bold 20px Tahoma;
-}
-h2{
-font:bold 14px Tahoma;
-}
-
-header, section, footer, aside, nav, article, hgroup
-{
-display:block;
-}
-
 body{
-
-text-align:center;
+background-color: black;
 }
+#kontener{
+	width:1200px;
+	margin-right:auto;
+	margin-left: auto;
 
-#cz_glowna
-{
-border:1px solid black;
-width:1000px;
-margin:20px auto;
-text-align:left;
 }
+#naglowek{
+	font-family:impact;
+	width:1200px;
+	margin:auto;
+	margin-bottom:15px;
+	
+	font-size: 26px;
+	color:white;
+	
 
-#top_header
-{
-background:yellow;
-border:1px solid blue;
-padding:20px;
+
 }
+a:link    {color:white; background-color:transparent; text-decoration:none}
+a:visited {color:white; background-color:transparent; text-decoration:none}
+a:hover   {color:blue; background-color:transparent; text-decoration:underline; text-shadow:2px 2px 8px blue;}
+a:active  {color:red; background-color:transparent; text-decoration:underline; text-shadow:2px 2px 8px red;}
 
-#top_men
-{
-background:blue;
-color:white;
-}
-
-#top_men li
-{
-display:inline-block;
-list-style:none;
-padding:5px;
-font:bold 14px Tahoma;
-}
-
-#main_section
-{
-float:left;
-width:660px;
-margin:30px; /* to jest komentarz 1000-660-30-30=280*/
+#menu_wyszukaj{
+	background-color:786d6d ;
+	font-size: 20px;
+	font-family:impact;
+	color:white;
+	width:1200px;
+	height:80px;
 
 }
 
-#side_news
-{
-float:left;
-width:220px;
-margin:20px 0px;
-padding:30px;
-background:#66cccc;
+
+
+
+
+#tresc1a{
+	width:auto;
+	height: 400px;
+	background-color: white;
+	color:black;
+	font-family: impact;
+	font-size:20px;
+}
+#tresc1{
+	width:auto;
+	height: 300px;
+	background-color: white;
+	color:black;
+	font-family: impact;
+	font-size:20px;
+}
+#silnik{
+	float: left;
+}
+#tresc2{
+	width:auto;
+	height: 300px;
+	color:white;
+	font-family: impact;
+	font-size:20px;
+}
+#tresc3{
+	width:auto;
+	height: 400px;
+	background-color: white;
+	color:black;
+	font-family: impact;
+	font-size:20px;
+}
+#motoauto{
+	float:left;
+}
+#wentylacja{
+	float:left;
+}
+#tektura{
+	float:left;
 }
 
-#stopka
-{
-clear:both;
-text-align:center;
-padding:20px;
-border-top:2px solid green;
+#stopka{
+	width:1200px;
+	height:50px;
+	color:white;
+	font-family:arial;
+	font-size: 12px;
+	float:left;
+
+}
+#fota{
+	float:right;
 }
